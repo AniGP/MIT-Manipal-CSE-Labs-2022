@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+
+<p>Name:<input type="text" id="fname"/></p>
+<p>Password:<input type="password" id="password"/></p>
+<p>Phone Number:<input type="number" id="phone"/></p>
+
+<button type="button" onclick="myFunction()">Log In</button>
+
+
+<script>
+  function myFunction()
+  {
+  	var i;
+
+    var name = document.getElementById("fname").value;
+    var password = document.getElementById("password").value;
+    var phone = document.getElementById("phone").value;
+      
+    if(phone.length==10)
+    {
+      document.getElementById("demo").innerHTML="valid phone number";
+    }
+      
+    else
+    {
+      document.getElementById("demo").innerHTML="invalid phone number";
+    }
+  }
+</script>
+<p id="demo"></p>
+
+</body>
+</html>
+
+

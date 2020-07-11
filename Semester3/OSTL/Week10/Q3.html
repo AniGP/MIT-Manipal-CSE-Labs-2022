@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Descending order of 3 nos.</title>
+</head>
+<body style="background-color: violet">
+<script>
+    var x =prompt('Input 1st no.');
+    var y =prompt('Input 2nd no.');
+    var z =prompt('Input 3rd no.');
+    if (x>y && x>z)
+    {
+            if (y>z)
+            {
+                alert("Descending order: "+ x + ", " + y + ", " +z);
+            }
+            else
+            {
+                alert("Descending order: "+ x + ", " + z + ", " +y);
+            }
+    }
+    else if (y>x && y >z)
+    {
+            if (x>z)
+            {
+                 alert("Descending order: "+ y + ", " + x + ", " +z);
+            }
+            else
+            {
+                 alert("Descending order: "+ y + ", " + z + ", " +x);
+            }
+    }
+    else if (z>x && z>y)
+    {
+            if (x>y)
+            {
+                alert("Descending order: "+ z + ", " + x + ", " +y);
+            }
+            else
+            {
+                alert("Descending order: "+ z + ", " + y + ", " +x);
+            }
+    }
+</script>
+</body>
+</html>

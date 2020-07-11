@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color choose</title>
+</head>
+<body>
+	<form>
+	<input type="radio" id="button1"  onclick="func1();" name="button1" value="red">Red</input><br>
+	<input type="radio" id="button2"  onclick="func2();" name="button2" value="green">Green</input><br>
+	<input type="radio" id="button3"  onclick="func3();" name="button3" value="blue">Blue</input><br>
+	</form>
+	<canvas id="myCanvas" width="300" height="300"></canvas>
+	<script>
+	
+	function func1()
+	{
+		var canvas = document.getElementById("myCanvas");
+		var ctx = canvas.getContext("2d");
+		ctx.fillStyle = "red";
+		ctx.fillRect(55,50,100,150);
+	}
+	
+	function func2()
+	{
+		var canvas = document.getElementById("myCanvas");
+		var ctx = canvas.getContext("2d");
+		ctx.fillStyle = "green";
+		ctx.fillRect(55,50,100,150);
+	}
+	
+	function func3()
+	{
+		var canvas = document.getElementById("myCanvas");
+		var ctx = canvas.getContext("2d");
+		ctx.fillStyle = "blue";
+		ctx.fillRect(55,50,100,150);
+	}
+</script>
+</body>

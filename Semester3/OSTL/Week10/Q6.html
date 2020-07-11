@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+	var arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+	var x =prompt('Which element do you want to delete from 0 to 9 ?');
+	for( var i = 0; i < arr.length; i++)
+	{ 
+	   if ( arr[i] === parseInt(x)) 
+	   {
+	     arr.splice(i, 1); 
+	   }
+	}
+	alert("Deleted array: "+arr);             
+	var x =prompt('Which element do you want to insert ?');
+	arr.push(x);
+	alert("Inserted array: "+arr);                           
+</script>
+</body>
+</html>

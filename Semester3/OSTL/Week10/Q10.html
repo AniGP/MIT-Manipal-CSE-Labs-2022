@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz</title>
+</head>
+<body style="text-align: center;background-color: lightpink">
+
+<h1>QUIZ</h1>
+Capital of India <input type="text" id="Text1" >
+<button id ="But1" onclick="myFunction1()">Try it</button>
+<br></br>
+Capital of Bangladesh <input type="text" id="Text2" >
+<button id ="But2" onclick="myFunction2()">Try it</button>
+<br></br>
+Largest Country in the World <input type="text" id="Text3" >
+<button id ="But3" onclick="myFunction3()">Try it</button>
+<br></br>
+<button id ="But4" onclick="myFunction4()">Total Score</button>
+<script>
+	
+	var string;
+	var count=0;
+	
+	function myFunction1()
+	{
+		var string1="New Delhi";
+	 	string = document.getElementById("Text1").value;
+	 	if(string1==string)
+	 	{
+	 		count=count+1;
+	 		alert('Correct Answer');
+	 		var elem = document.getElementById("But1");
+			elem.parentNode.removeChild(elem);
+	 	}
+	 	
+	 	else
+	 	{
+
+	 		alert('Wrong Answer');
+	 		var elem = document.getElementById("But1");
+			elem.parentNode.removeChild(elem);
+
+	 	}
+	}
+	function myFunction2()
+	{
+		var string1="Dhaka";
+	 	string = document.getElementById("Text2").value;
+	 	
+	 	if(string1==string)
+	 	{
+	 		count=count+1;
+	 		alert('Correct Answer');
+	 		var elem = document.getElementById("But2");
+			elem.parentNode.removeChild(elem);
+
+	 	}
+	 	
+	 	else
+	 	{
+	 		alert('Wrong Answer');
+	 		var elem = document.getElementById("But2");
+			elem.parentNode.removeChild(elem);
+
+	 	}
+	}
+	
+	function myFunction3()
+	{
+		var string1="Russia";
+	 	string = document.getElementById("Text3").value;
+	 	
+	 	if(string1==string)
+	 	{
+	 		count=count+1;
+	 		alert('Correct Answer');
+	 		var elem = document.getElementById("But3");
+			elem.parentNode.removeChild(elem);
+			
+	 	}
+	 	
+	 	else
+	 	{
+	 		alert('Wrong Answer');
+	 		var elem = document.getElementById("But3");
+			elem.parentNode.removeChild(elem);
+	 	}
+	}
+	
+	function myFunction4()
+	{
+		var string1="New Delhi";
+		string = document.getElementById("Text1").value;
+	 	
+	 	if(string1==string)
+	 	{
+	 		count=count+1;
+	 	}
+
+	 	string1="Dhaka";
+		string = document.getElementById("Text2").value;
+	 	
+	 	if(string1==string)
+	 	{
+	 		count=count+1;
+	 	}
+
+	 	string1="Russia";
+		string = document.getElementById("Text3").value;
+	 	
+	 	if(string1==string)
+	 	{
+	 		count=count+1;
+	 	}
+		alert(count);
+	}
+</script>
+</body>
+</html>

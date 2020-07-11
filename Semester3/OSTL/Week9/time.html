@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+  function startTime() 
+  {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML = "The time is : "+h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+  }
+  
+  function checkTime(i) 
+  {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+  }
+</script>
+</head>
+
+<body onload="startTime()">
+<h3 id="txt"></h3>
+<p>Click the button to get a time-based greeting:</p>
+<button onclick="myFunction()">Try it</button>
+<h4 id="demo"></h4>
+<script>
+  function myFunction() 
+  {
+    var greeting;
+    var time = new Date().getHours();
+    
+    if (time < 10) 
+    {
+      greeting = "Good morning";
+    } 
+
+    else if (time < 20) 
+    {
+      greeting = "Good day";
+    } 
+
+    else 
+    {
+      greeting = "Good evening";
+    }
+    
+    document.getElementById("demo").innerHTML = greeting;
+  }
+</script>
+</body>
+</html>

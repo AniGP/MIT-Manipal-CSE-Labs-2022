@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Type</title>
+</head>
+<body style="text-align: center;background-color: yellow;">
+<h2>Input Type!</h2>
+<h4>Check the type of your input(string/integer/boolean):</h4> 
+<input id="text1">Enter input : </input>
+<br>
+<input type="button" id="button1" value="Check Type" onclick="add_element();"></input>
+<script>
+	var a,b,c;
+	function add_element()
+	{
+		 a=document.getElementById("text1").value;
+		 c=parseInt(a);
+		 if(a==="true"||a==="false"||a==="True"||a==="False")
+		     b="boolean";
+		 else if(Number.isInteger(c))
+		     b="integer";
+		 else
+		     b="string";        
+		 alert("Input type is: "+ b);
+		 document.getElementById("text1").value = "";
+	}
+</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <title> 
+            Position of an element 
+        </title> 
+    </head> 
+    <body> 
+        <button id = 'b1' onclick = "getPosxy(this)">Button 1</button>
+        <button id = 'b2' onclick = "getPosxy(this)">Button 2</button>
+        <p id = "posn"></p> 
+
+        <script type="text/javascript">
+        	function getPosxy(element)
+        	{ 
+                var rect = element.getBoundingClientRect(); 
+                document.getElementById('posn').innerHTML = 'X: ' + rect.x + ', ' + 'Y: ' + rect.y 
+            } 
+        </script> 
+    </body> 
+</html>

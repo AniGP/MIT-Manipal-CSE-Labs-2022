@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Compute the sum and product of an array of integers</title>
+</head>
+<body style = "background-color: pink">
+<script>
+var inputArray = [];
+var sum =0;
+var mul=1;
+var size = prompt('Enter number of elements : '); //Maximum Array size
+for(var i=0; i<size; i++)
+{
+	inputArray[i] = prompt('Enter Element : '+ (i+1));
+	sum = sum + parseInt(inputArray[i]);
+	mul = mul*inputArray[i];
+}
+alert("Sum is =  "+(sum));
+alert("Product is =  "+mul);
+</script>
+</body>
+</html>

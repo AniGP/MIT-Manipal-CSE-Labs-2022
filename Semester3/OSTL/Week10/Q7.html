@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+	var size=5;
+	var avg=0;
+	var inputArray = [];
+	for(var i=0; i<size; i++)
+	{
+		inputArray[i] = prompt('Enter marks for subject '+(i+1));
+		avg+=parseInt(inputArray[i]);
+	}    
+
+	avg/=size;
+
+	if(avg>90)
+		alert('GRADE A');
+	else if(avg>80)
+		alert('GRADE B');
+	else if(avg>70)
+		alert('GRADE C');
+	else if(avg>60)
+		alert('GRADE D');
+	else
+		alert('Fail')
+</script>
+</body>
+</html>

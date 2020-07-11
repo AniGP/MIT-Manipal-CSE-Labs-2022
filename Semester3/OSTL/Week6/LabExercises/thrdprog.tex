@@ -1,0 +1,29 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{rotating}
+\usepackage{booktabs}
+\usepackage{multirow}
+\begin{document}
+	\title{Time Table}
+	\section{Time Table}
+		\subsection{CSE B}
+	\begin{table}[h]
+		\begin{tabular}{|c|c|c|c|c|}
+			\hline
+			\textbf{Day}&9:00-10:00&10:00-10:30&10:30-11:30&11:30-12:30\\
+			\hline
+			 & & & & \\
+			\textbf{Monday}&Maths&&Physics&Chemistry\\
+			 & & & & \\
+			\cline{1-2}
+			\cline{4-5}
+			\textbf{Wednesday}&Maths&\rotatebox{90}{Break}&Physics&Chemistry\\
+			 & & & & \\
+			\cline{1-2}
+			\cline{4-5}
+			 & & & & \\
+			\textbf{Friday}&Maths&&Physics&Chemistry\\
+			 & & & & \\
+			\hline
+		\end{tabular}
+	\end{table}
+\end{document}

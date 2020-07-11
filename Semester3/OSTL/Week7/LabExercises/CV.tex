@@ -1,0 +1,61 @@
+\documentclass[10pt]{article}
+\usepackage[margin=3cm]{geometry}
+\title{\bfseries\Huge Example Layout}
+\author{abc@gmail.com}
+\date{\today}
+\begin{document}
+	\begin{minipage}{0.65\textwidth}
+		\begingroup
+		\let\center\flushleft
+		\let\endcenter\endflushleft
+		\maketitle
+		\endgroup
+	\end{minipage}
+\begin{minipage}{0.3\textwidth}
+	\flushright{\rule{3.5cm}{4.5cm}}
+\end{minipage}
+
+\begin{minipage}[ht]{0.48\textwidth}
+	abcdef\\
+	ghijklm - 1234456\\
+	nopqrst\\
+\end{minipage}
+\begin{minipage}[ht]{0.48\textwidth}
+	India\\
+	DOB: 01/01/00\\
+	+91 1234567890\\
+\end{minipage}
+
+\section*{Education}
+%\begin{tabular}{c|c}
+%	\hline
+%	2016&{\bf Hiranandani Foundation School ICSE(10th) - 96.8percent}\\
+%	2018&{\bf Hiranandani Foundation School ISC(12th - PCM+CS) - 95.6percent}\\
+%	2022&{\bf Manipal Institute of Technology, Manipal - B.Tech CSE}\\
+%\end{tabular}
+
+%\section*{Experience}
+%\begin{tabular}{c|c}
+%	\hline
+%	2019 April&{\bf Electronics and AI team member at Mars Rover Manipal}\\
+%	2019 August&{\bf Hostel committee member for MIT hostel block 22}\\
+%\end{tabular}
+
+%\section{Interests and Hobbies}
+%\subsection{Interests}
+%Coding, computer vision, data science, microcontrollers, electronics.
+%\newline
+%Part of a student project in college.
+%\subsection{Hobbies}
+%Dance, dramatics, music, palying badminton.
+%\newline
+%Participated in a lot of dance and dramatic competitions in high school.
+
+%\section{Achievements}
+%\begin{itemize}
+%\item Distinction award for getting above 85percent from 5th grade to 12th grade
+%\item Came 2nd at Rochak-2017 street play competition
+%\item Certificate for getting 9.50 GPA in 2nd sem of college
+%\end{itemize}
+
+\end{document}
