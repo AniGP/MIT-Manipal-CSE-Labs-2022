@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="556.0" prefWidth="524.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="application.Sample1Controller">
+   <children>
+      <Button fx:id="btnins" layoutX="46.0" layoutY="387.0" mnemonicParsing="false" onAction="#insertRec" text="Insert" />
+      <Button fx:id="btndel" layoutX="167.0" layoutY="387.0" mnemonicParsing="false" onAction="#deleteRec" text="Delete" />
+      <Button fx:id="btnupd" layoutX="305.0" layoutY="387.0" mnemonicParsing="false" onAction="#updateRec" text="Update" />
+      <Button fx:id="btnclr" layoutX="439.0" layoutY="387.0" mnemonicParsing="false" onAction="#clearTxt" text="Clear" />
+      <TextField fx:id="txt1" layoutX="299.0" layoutY="98.0" />
+      <TextField fx:id="txt2" layoutX="299.0" layoutY="173.0" />
+      <TextField fx:id="txt3" layoutX="299.0" layoutY="242.0" />
+      <Label layoutX="107.0" layoutY="102.0" text="Department Name" />
+      <Label layoutX="107.0" layoutY="177.0" text="Building" />
+      <Label layoutX="107.0" layoutY="242.0" text="Budget" />
+   </children>
+</AnchorPane>
