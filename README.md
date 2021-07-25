@@ -14,7 +14,7 @@ _Open Source Technologies Lab ( OSTL ) :_ Basics of Shell Scripting, Debugging, 
 
 ##  _4th Semester :_ 
 
-_Algorithms Lab ( AL ) :_ Design and Analysis of some Algorithms in 'C' Language.
+_Design and Analysis of Algorithms Lab ( DAA ) :_ Design and Analysis of some Algorithms in 'C' Language.
 
 _Database Systems Lab ( DBSL ) :_ These SQL Programs were executed on Oracle Database ( Version used in Labs : Orcale 11G XE )
 
