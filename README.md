@@ -16,6 +16,10 @@ These are the Laboratory Programs at the Department of Computer Science and Engi
 
 - Verilog (VHDL) has been used to write the programs on MAX+plus II.
 
+- Software: [MAX+plus II](https://drive.google.com/file/d/1xIe0Iwcshw5QBu3qQCElQYvg4hfgJ7_F/view)
+
+- [How to install MAX+Plus II - Baseline version](https://www.youtube.com/watch?v=0nMumibwhHg)
+
 **CSE 2163: Object Oriented Programming Lab (OOPL)** 
 
 - Simple Java programs using control structures and Arrays, Programs using Classes, objects, methods, Programs on Constructors and static members, Programs using Inheritance, Packages, Interfaces and Generics, Programs using Exceptions and Multithreading, GUI based programs using Javafx
@@ -41,11 +45,17 @@ These are the Laboratory Programs at the Department of Computer Science and Engi
 
 - These programs were executed on Oracle Database in SQL. (Orcale 11G XE)
 
+- Software: [Orcale 11G XE](https://drive.google.com/drive/folders/1YNknJ4L81MpiwhE032bJvhJrkrIPXtcu)
+
+- [Online SQL Compiler](https://www.tutorialspoint.com/execute_sql_online.php) 
+
 **CSE 2263: Embedded Systems Lab**
 
 - Basics of assembly language programming, data transfer, arithmetic operations, logical instructions, branch instructions, code conversion, packing and unpacking, sorting, searching, recursion, I/O interfacing of LEDs, LCD, keyboard, 7 segment display, stepper motor, DAC and ADC, PWM.
 
 - These programs are executed in ARM Assembly Language and Embedded 'C' using Keil microVision4, NXP, LPC1768.
+
+- [ARM Embedded Systems by Dr. Arun Kumar](https://youtube.com/playlist?list=PLPHwen1eJ3lpZfHuzn9xuZSAqR5hslozH)
 
 ## 5th Semester:
 
@@ -60,6 +70,19 @@ These are the Laboratory Programs at the Department of Computer Science and Engi
 - Socket Programming Using UDP Protocols study various Network packets exchanged using wireshark/tcpdump. Simple Client -Server Programs, Concurrent Server implementations Socket Programming Using TCP Protocols and study various Network packets exchanged using wireshark/tcpdump. Simple Client -Server Programs, Concurrent Server implementations, Simple Network Application Program Development like FTP Network Design Experiments and Packet Monitoring Experiments with simulation tools like GNS3, Wireshark, tcpdump and NS2 or NS3 etc: Experiments to study Classful IPv4 Addressing, CIDR Notation Addressing, Subnetwork and Supernet work Design. Experiments to study working of Hubs, Bridges, Switches etc Devices. Configuration of Common Network Services like FTP, SSH, TELNET, DHCP Servers in Linux Operating systems.
 
 - C Language has been used to write the programs.
+
+- [GNS3 by Dr. Arun Kumar](https://www.youtube.com/playlist?list=PLPHwen1eJ3lpZ54397CkL6hHYzXE-koMC)
+
+- Softwares:
+
+- Wireshark -> Open Source Packet Analyzer : [Install](https://www.wireshark.org/download.html) 
+(The GNS3 setup comes with a Wireshark setup included by default)
+
+- GNS3 (Graphical Network Simulator-3) -> [Installation Guide for Ubuntu OS](https://www.youtube.com/watch?v=Ix02iFLIzlo) 
+- Download GNS3 for Windows -> [GNS3 Installation Guide for Windows](https://www.gns3.com/software/download)
+- [Installation Guide for GNS3](https://www.youtube.com/watch?v=lFEDmM_lsxI)
+- Router Image -> [Install](https://drive.google.com/file/d/1vEeLDEF8njWWxfosJS0eA0lqpIxxLfWP/view) 
+- NS2 -> [Install](https://www.youtube.com/watch?v=tH0yrJdovWM) 
 
 **CSE 3163: Operating Systems Lab**
 
