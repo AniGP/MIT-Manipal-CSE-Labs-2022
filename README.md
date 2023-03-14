@@ -1,6 +1,6 @@
 # **MIT Manipal CSE Labs (2018 - 2022)**
 
-These are the Lab Programs of CSE at MIT, Manipal.
+These are the Laboratory Programs at the Department of Computer Science and Engineering, Manipal Institute of Technology, Manipal.
 
 ## 3rd Semester: 
 
