@@ -1,21 +1,48 @@
-# **MIT Manipal CSE Labs ( 2018 - 2022 )**
+# **MIT Manipal CSE Labs (2018 - 2022)**
 
 These are the Lab Programs of CSE at MIT, Manipal.
 
-##  _3rd Semester :_ 
+## 3rd Semester: 
 
-_Data Structures Lab (DSL) :_ Programs with basic concepts of Data Structures in 'C'.
+**CSE 2161: Data Structures Lab (DSL):** 
 
-_Object Oriented Programming Lab (OOPL) :_  Programs in Java utilizing Object Oriented Programming concepts.
+- Reviewing the concepts of pointers, structures and recursion, Studying the operation of stacks and queues and the associated application programs, Creating dynamic allocation of memory for linked list and applying it to examples using singly, doubly and circular linked list and their applications, Creation of binary trees and the application associated with the trees.
 
-_Digital System Design Lab (DSDL) :_ Programs for logic design using Verilog.
+- C Language has been used to write the programs.
 
-_Open Source Technologies Lab (OSTL) :_ Basics of Shell Scripting, Debugging, Git, Introduction to LaTeX, HTML, CSS, JavaScript.
+**CSE 2162: Digital System Design Lab (DSDL):** 
 
-##  _4th Semester :_ 
+- Simulation of Logic Circuits Using Verilog: Verification of Logic Gates and logic expressions, Simplification of Expressions using Kmap: SOP and POS Forms, Multilevel NAND, NOR Circuits, Arithmetic Circuits: Half Adder, Full Adder, Multi-Bit Adder/Subtractor, BCD Adder, Multiplexers, Decoders and Encoders, Code Converters and Comparator, Flip-Flops: D, JK, and T Flip-Flops, Registers: Shift Register, Ring Counter, Johnson Counter, Binary Counters, Simple processor design
 
-_Design and Analysis of Algorithms Lab (DAA) :_ Design and Analysis of some Algorithms in 'C' Language.
+- Verilog (VHDL) has been used to write the programs.
 
-_Database Systems Lab (DBS) :_ These SQL Programs were executed on Oracle Database ( Version used in Labs : Orcale 11G XE )
+**CSE 2163: Object Oriented Programming Lab (OOPL):** 
 
-_Embedded Systems Lab (ES) :_ These programs are executed using Keil microVision4, NXP, LPC1768 in ARM Assembly Language and Embedded 'C'.
+- Simple Java programs using control structures and Arrays, Programs using Classes, objects, methods, Programs on Constructors and static members, Programs using Inheritance, Packages, Interfaces and Generics, Programs using Exceptions and Multithreading, GUI based programs using Javafx
+
+-  Java Language has been used to write the programs.
+
+**CSE 2164: Open Source Technologies Lab (OSTL):** 
+
+- Vim, emacs, HTML, CSS, Report and presentation software: latex, beamer, drawing software, IDE, code reading, debugging, Basic Java, Java collections, interfaces, Java threads, Java GUI, Introduction to documentation, Version management, Unix basics, Unix tools, Bash scripting, Unix pipes, Python programming, Makefile, libraries and linking, Graph plotting software, Profiling tools.
+
+
+## 4th Semester: 
+
+**CSE 2261 Algorithms Lab (DAA):** 
+
+- Implement a doubly linked list & BST, GCD Techniques, Bubble sort, Selection sort, Linear search, String Matching, sorting algorithms, DFS, BFS, Topological sorting, AVL tree, 2-3 tree, Horspool algorithm, Open hash table, Floyd's algorithm, Warshall's algorithm, Greedy Techniques, Dijkstra's algorithm, Backtracking.
+
+- C Language has been used to write the programs.
+
+**CSE 2262: Database Systems Lab (DBS):**
+
+- MS Access, Introduction to SQL, Intermediate SQL, Integrity Constraints in SQL, Additional Exercises on SQL, PL/SQL Basics, Exception Handling and Cursors, Additional Cursors constructs and Transactions, Procedures, Functions and Packages, Triggers, Mini Project. 
+
+- These programs were executed on Oracle Database in SQL. (Orcale 11G XE)
+
+**CSE 2263: Embedded Systems Lab (ES):**
+
+- Basics of assembly language programming, data transfer, arithmetic operations, logical instructions, branch instructions, code conversion, packing and unpacking, sorting, searching, recursion, I/O interfacing of LEDs, LCD, keyboard, 7 segment display, stepper motor, DAC and ADC, PWM.
+
+- These programs are executed in ARM Assembly Language and Embedded 'C' using Keil microVision4, NXP, LPC1768.
