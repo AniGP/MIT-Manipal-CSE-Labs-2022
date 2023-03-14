@@ -1,0 +1,5 @@
+**CSE 3162: Operating Systems Lab**
+
+- Socket Programming Using UDP Protocols study various Network packets exchanged using wireshark/tcpdump. Simple Client -Server Programs, Concurrent Server implementations Socket Programming Using TCP Protocols and study various Network packets exchanged using wireshark/tcpdump. Simple Client -Server Programs, Concurrent Server implementations, Simple Network Application Program Development like FTP Network Design Experiments and Packet Monitoring Experiments with simulation tools like GNS3, Wireshark, tcpdump and NS2 or NS3 etc: Experiments to study Classful IPv4 Addressing, CIDR Notation Addressing, Subnetwork and Supernet work Design. Experiments to study working of Hubs, Bridges, Switches etc Devices. Configuration of Common Network Services like FTP, SSH, TELNET, DHCP Servers in Linux Operating systems.
+
+- C Language has been used to write the programs.

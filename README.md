@@ -55,7 +55,7 @@ These are the Laboratory Programs at the Department of Computer Science and Engi
 
 - C Language has been used to write the programs.
 
-**CSE 3162: Operating Systems Lab**
+**CSE 3162: Computer Networks Lab**
 
 - Socket Programming Using UDP Protocols study various Network packets exchanged using wireshark/tcpdump. Simple Client -Server Programs, Concurrent Server implementations Socket Programming Using TCP Protocols and study various Network packets exchanged using wireshark/tcpdump. Simple Client -Server Programs, Concurrent Server implementations, Simple Network Application Program Development like FTP Network Design Experiments and Packet Monitoring Experiments with simulation tools like GNS3, Wireshark, tcpdump and NS2 or NS3 etc: Experiments to study Classful IPv4 Addressing, CIDR Notation Addressing, Subnetwork and Supernet work Design. Experiments to study working of Hubs, Bridges, Switches etc Devices. Configuration of Common Network Services like FTP, SSH, TELNET, DHCP Servers in Linux Operating systems.
 
@@ -79,7 +79,7 @@ These are the Laboratory Programs at the Department of Computer Science and Engi
 
 - Introduction to HTML5, CSS AND Javascript. C# programming - variables, operations, conditional logics, loops, functions, arrays, classes, inheritance and polymorphism. Web forms and web controls, state management, validation, themes and master page. Introduction to the ADO.NET fundamentals, working with database, SQLDataSource control. Introduction to File, XML, MVC and developing AJAX web applications. Developing the mini project using web concepts.
 
-**CSE 3262: Parallel Programming Lab**
+**CSE 3263: Parallel Programming Lab**
 
 - Introduction to Visual Studio and Basics of MPI, Point to Point Communications in MPI, Collective communications in MPI, Error Handling in MPI, OpenCL introduction and programs on vectors, OpenCL programs on strings and to check the execution time in OpenCL, OpenCL programs on matrix, OpenCL programs on sorting and
 searching, CUDA Programs on arrays and matrices, CUDA Programs on strings.
