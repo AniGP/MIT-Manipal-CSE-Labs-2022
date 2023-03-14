@@ -43,7 +43,8 @@ These are the Laboratory Programs at the Department of Computer Science and Engi
 
 - MS Access, Introduction to SQL, Intermediate SQL, Integrity Constraints in SQL, Additional Exercises on SQL, PL/SQL Basics, Exception Handling and Cursors, Additional Cursors constructs and Transactions, Procedures, Functions and Packages, Triggers, Mini Project. 
 
-- These programs were executed on Oracle Database in SQL. (Orcale 11G XE) PL/SQL has also been used.
+- These programs were executed on Oracle Database in SQL. (Orcale 11G XE) 
+- PL/SQL has also been used.
 
 - Software: [Orcale 11G XE](https://drive.google.com/drive/folders/1YNknJ4L81MpiwhE032bJvhJrkrIPXtcu)
 
