@@ -23,7 +23,7 @@ where employee.ssn=mgr_ssn and plocation='Stafford';
 
 10.) Select fname,lname from employee where super_ssn is NULL;
 
-11.) Select lname,fname from employee,dependent where.employee.fname=dependent.dependent_name and employee.sex=dependent.sex;
+11.) Select lname,fname from employee,dependent where employee.fname=dependent.dependent_name and employee.sex=dependent.sex;
 
 12.) Select distinct(fname) from employee,dependent where employee.ssn not in (Select essn
 from dependent);
