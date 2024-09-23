@@ -1,0 +1,62 @@
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>Home</title> 
+</head> 
+<body> 
+<script type="text/javascript"> 
+function process(){ 
+document.getElementById('n').innerHTML = document.getElementById('name').value; 
+document.getElementById('cn').innerHTML = document.getElementById('cno').value; 
+document.getElementById('ema').innerHTML = document.getElementById('email').value; 
+document.getElementById('em1').innerHTML = document.getElementById('em').value; 
+document.getElementById('pm1').innerHTML = document.getElementById('pm').value; 
+document.getElementById('cm1').innerHTML = document.getElementById('cm').value; 
+var n1 = parseInt(document.getElementById('em').value); 
+var n2 = parseInt(document.getElementById('pm').value); 
+var n3 = parseInt(document.getElementById('cm').value); 
+var total = ((n1+n2+n3)/300)*100; 
+document.getElementById('tp').innerHTML = total 
+} 
+</script> 
+Name: <input type="text" name = "name" id = "name"><br> 
+Contact No: <input type="text" name= "cno" id = "cno"><br> 
+Email: <input type="text" name = 'email' id='email'><br> 
+English marks: <input type="text" name="em" id='em'><br> 
+Physics marks: <input type="text" name="pm" id='pm'><br> 
+Chemistry marks: <input type="text" name="cm" id = 'cm'><br> 
+<button onclick="process()">Submit</button> 
+<table> 
+<tr> 
+<td>Name: </td> 
+<td id="n">{{name}}</td> 
+</tr> 
+<tr> 
+<td>contact: </td> 
+<td id = "cn">{{cno}}</td> 
+</tr> 
+<tr> 
+<td>email: </td> 
+<td id = "ema">{{email}}</td> 
+</tr> 
+<tr> 
+<td>eng marks: </td> 
+<td id = "em1">{{em}}</td> 
+</tr> 
+<tr> 
+<td>phy marks: </td> 
+<td id="pm1">{{pm}}</td> 
+</tr> 
+<tr> 
+<td>chem marks: </td> 
+<td id="cm1">{{cm}}</td> 
+</tr> 
+<tr> 
+<td>Percentage: </td> 
+<td id='tp'>{{tp}}</td> 
+</tr> 
+</table> 
+</body> 
+</html> 

@@ -1,0 +1,42 @@
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>Document</title> 
+</head> 
+<body> 
+<script type="text/javascript"> 
+function calculator(){ 
+var n1 = parseFloat(document.getElementById('num1').value); 
+var n2 = parseFloat(document.getElementById('num2').value); 
+var n3 = document.getElementById('op').value; 
+if(n3=="+"){ 
+n4 = n1+n2; 
+} 
+else if(n3=="-"){ 
+n4 = n1-n2; 
+} 
+else if(n3=="*"){ 
+n4 = n1*n2; 
+} 
+else if(n3=="/"){ 
+n4=n1/n2; 
+} 
+document.getElementById('result').innerHTML = n4; 
+} 
+</script> 
+<input type="number" id = 'num1'><br> 
+<input type="number" id = 'num2'><br> 
+<label for="op">select the operation to be performed</label> 
+<select name="op" id="op"> 
+<option value="+">+</option> 
+<option value="-">-</option> 
+<option value="*">*</option> 
+<option value="/">/</option> 
+</select> 
+<br> 
+<button onclick="calculator()">calculate</button><br> 
+<h3 id="result"></h3> 
+</body> 
+</html> 

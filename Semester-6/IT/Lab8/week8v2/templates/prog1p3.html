@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Category Table:</h1><br>
+    <table>
+        <thead>
+            <td>Name</td>
+            <td>Number of Visits</td>
+            <td>Number of likes</td>
+        </thead>
+        {% for category in categories %}
+        <tr>
+            <td>{{category.name}}</td>
+            <td>{{category.numberOfVisits}}</td>
+            <td>{{category.numberOfLikes}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <br>
+    <h1>Page table</h1>
+    <table>
+        <thead>
+            <td>Category</td>
+            <td>Title</td>
+            <td>URL</td>
+            <td>View</td>
+        </thead>
+        {% for page in pages %}
+        <tr>
+            <td>{{page.category}}</td>
+            <td>{{page.title}}</td>
+            <td>{{page.url}}</td>
+            <td>{{page.view}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <br>
+    <a href="{% url 'home' %}">back to home</a>
+</body>
+</html>

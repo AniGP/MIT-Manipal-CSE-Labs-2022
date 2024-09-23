@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publisher Search</title>
+</head>
+<body>
+    <h1>Search for Publisher</h1>
+    <form action="searchPublisher" method="POST">
+        {% csrf_token %}
+        {{form}}
+        <br><input type="submit" value = "Search">
+    </form>
+    <table>
+        <thead>
+            <td>Name</td>
+            <td>Street</td>
+            <td>City</td>
+            <td>State</td>
+            <td>Country</td>
+            <td>Website</td>
+        </thead>
+        <tr>
+            <td>{{publisher.name}}</td>
+            <td>{{publisher.street}}</td>
+            <td>{{publisher.city}}</td>
+            <td>{{publisher.state}}</td>
+            <td>{{publisher.country}}</td>
+            <td>{{publisher.site}}</td>
+        </tr>
+    </table>
+    <a href="{% url 'home' %}">Go back to home</a>
+</body>
+</html>

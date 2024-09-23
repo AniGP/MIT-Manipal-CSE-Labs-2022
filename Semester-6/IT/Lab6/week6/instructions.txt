@@ -1,0 +1,1 @@
+just uncomment the path of the app you want to run in week6/urls.py

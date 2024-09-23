@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-image: linear-gradient(to right,#ffffff,#bcf4ea,#c2ff59);
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        option{
+            font-size: 20px;
+            color: white;
+            background-color: #1d1c36;
+        }
+        select{
+            font-size: 20px;
+            color: white;
+            background-color: #1d1c36;
+        }
+        form{
+            background-color: white;
+            padding: 20px 20px;
+            display: inline;
+            position: absolute;
+            top: 80px;
+            left: 40%;
+            box-shadow: 10px 10px 5px grey;
+        }
+        input{
+            background-color: #1d1c36 ;
+            color: white;
+            font-size: 20px;
+            padding: 5px 0px;
+            width: 200px;
+        }
+        tr{
+            margin-top: 300px;
+            padding-top: 20px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body style="text-align:center;">
+    <form action="MFInfo" >
+        <table>
+            {{form.as_table}}
+        </table>
+        <br>
+        <input type="submit">
+    </form>
+    
+</body>
+</html>

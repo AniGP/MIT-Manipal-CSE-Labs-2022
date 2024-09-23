@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Author Search</title>
+</head>
+<body>
+    <h1>Search for Author</h1>
+    <form action="searchAuthor" method="POST">
+        {% csrf_token %}
+        {{form}}
+        <br><input type="submit" value = "Search">
+    </form>
+    <table>
+        <thead>
+            <td>First Name</td>
+            <td>Last Name</td>
+            <td>email</td>
+        </thead>
+        <tr>
+            <td>{{author.fname}}</td>
+            <td>{{author.lname}}</td>
+            <td>{{author.em}}</td>
+        </tr>
+    </table>
+    <a href="{% url 'home' %}">Go back to home</a>
+</body>
+</html>

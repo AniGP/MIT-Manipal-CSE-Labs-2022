@@ -1,0 +1,43 @@
+#col1{
+    width: 40%;
+    }
+    #col2{
+    width:40%;
+    }
+    .c{
+    height: 50px;
+    width: 50px;
+    margin: 0px 20px;
+    }
+    #c1{
+    background-color: coral;
+    }
+    #c2{
+    background-color: cornflowerblue; }
+    #c3{
+    background-color:yellow;
+    }
+    #c4{
+    background-color: lightgreen;
+    }
+    #i1{
+     background-image: url("https://www.extremetech.com/wp-content/uploads/2016/10/Lamborghini-Egoista-LF-3-4-HERO-6 40x354.jpg");
+    background-size: 100px; background-repeat: no-repeat; background-position: center; height: 60px;
+    width: 80px;
+    }
+    #i2{
+    background-image: url("https://superstarsbio.com/wp-content/uploads/2019/04/Robert-Downey-Jr.-Smile.jpg");
+    background-size: 100px; background-repeat: no-repeat; background-position: center; height: 60px;
+    width: 80px;
+    }
+    .i{
+    margin: 0px 20px; }
+    #mag{
+    text-align: center; height: 1000%;
+    }
+    #magHead{
+    
+    font-family: cursive; font-size: 800%; color: white;
+    }
+    #mag2{
+    height: 50%; text-align: center; }

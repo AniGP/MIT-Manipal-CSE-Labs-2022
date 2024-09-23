@@ -1,0 +1,67 @@
+{%load static %}
+ <html lang="en">
+<head>
+<link rel="stylesheet" href="{% static 'css/q4.css' %}">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Document</title>
+</head>
+<body>
+<script>
+function colorChange(color){ document.getElementById('mag').style.backgroundColor=color;
+}
+function enterText(){
+document.getElementById('ct').innerHTML = document.getElementById('text').value; document.getElementById('ct').style.fontSize=document.getElementById('fs').value; document.getElementById('ct').style.fontFamily = document.getElementById('font').value;
+}
+function bgChange1(){
+document.getElementById('mag2').style.backgroundImage='url("https://www.extremetech.com/wp-co ntent/uploads/2016/10/Lamborghini-Egoista-LF-3-4-HERO-640x354.jpg")';
+document.getElementById('mag2').style.backgroundSize = 'cover'; document.getElementById('mag2').style.backgroundRepeat='no-repeat';
+
+ }
+function bgChange2(){
+document.getElementById('mag2').style.backgroundImage='url("https://superstarsbio.com/wp-conten t/uploads/2019/04/Robert-Downey-Jr.-Smile.jpg")';
+document.getElementById('mag2').style.backgroundSize = 'cover'; document.getElementById('mag2').style.backgroundRepeat='no-repeat'; }
+</script>
+<table style="height: 100%;">
+<tr>
+<td id="col1">
+<table style="border-spacing: 0px 50px;">
+<tr><th>select color:</th><th><button id="c1" onclick="colorChange('coral')" class="c"></button></th><th><button id="c2" onclick="colorChange('cornflowerblue')" class="c"></button></th><th><button id = "c3" onclick="colorChange('yellow')" class="c"></button></th><th><button id="c4" onclick="colorChange('lightgreen')" class="c"></button></th></tr>
+<tr>
+<th>select image:</th>
+<th><button id="i1" onclick="bgChange1()" class="i"></button></th> <th><button id="i2" onclick="bgChange2()" class="i"></button></th>
+</tr>
+</table>
+<table>
+<tr>
+<th>enter the Text: </th>
+<th><textarea name="text" id="text" cols="30" rows="10"></textarea></th>
+
+ </tr>
+</table>
+<table>
+<tr>
+<th>select the font: </th>
+<th><select name="fonts" id="font">
+<option value="Times New Roman">Times New Roman</option> <option value="Arial">Arial</option>
+<option value="Helvetica">Helvetica</option>
+<option value="sans-serif">sans-serif</option>
+<option value="Lucida Console">Lucida Console</option> </select></th>
+</tr>
+</table>
+<table>
+<tr>
+<th>enter the font-size:</th>
+<th><input type="number" id="fs"></th>
+</tr>
+</table>
+<button onclick="enterText()">submit</button>
+</td>
+<td id="mag">
+<div id="mag2">
+<h1 id="magHead">MIT</h1>
+
+</div>
+<p id="ct"></p> </td>
+</tr>
+</table> </body> </html>

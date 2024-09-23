@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td,thead{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <form action="firstPage">
+        {{form}}
+        <br>
+        <input type="submit" value="add item">
+    </form>
+    <table>
+        <thead>
+            <td>Item</td>
+            <td>Cost</td>
+        </thead>
+        {% for item in items %}
+        <tr>
+            <th>{{item.name}}</th>
+            <th>{{item.cost}}</th>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

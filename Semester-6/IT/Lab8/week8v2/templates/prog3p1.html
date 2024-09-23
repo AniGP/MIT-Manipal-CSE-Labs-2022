@@ -1,0 +1,19 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publisher Entry</title>
+</head>
+<body>
+    <h1>Publisher Registration:</h1>
+    <form action="publisherEntry" method="POST">
+        {% csrf_token %}
+        <table>
+            {{form.as_table}}
+        </table>
+        <input type="submit" value=register>
+    </form>
+    <a href="{% url 'home' %}">Go back to home</a>
+</body>
+</html>

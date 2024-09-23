@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Search</title>
+</head>
+<body>
+    <h1>Search for book</h1>
+    <form action="searchBook" method="POST">
+        {% csrf_token %}
+        {{form}}
+        <br><input type="submit" value = "Search">
+    </form>
+    <table>
+        <thead>
+            <td>Title</td>
+            <td>Published Date</td>
+            <td>Name of the Publisher</td>
+            <td>Name of the authors</td>
+        </thead>
+        <tr>
+            <td>{{book.title}}</td>
+            <td>{{book.pdate}}</td>
+            <td>{{book.publisher.name}}</td>
+            <td>
+                {% for author in book.authors.all %}
+                {{author.fname}} {{author.lname}} <br>
+                {% endfor %}
+            </td>
+        </tr>
+    </table>
+    <a href="{% url 'home' %}">Go back to home</a>
+</body>
+</html>
