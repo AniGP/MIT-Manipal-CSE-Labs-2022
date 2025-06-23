@@ -1,4 +1,4 @@
-#ALP to convert 32-bit pacled BCD number into its hexadecimal equivalent number.
+#ALP to convert 32-bit packed BCD number into its hexadecimal equivalent number.
 
 	AREA RESET, DATA, READONLY
 	EXPORT __Vectors
